@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0B773EA0A9EF2788FBEF6BAA /* Pods_ios_dca_caculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24BCD27CBB2F7BE60566908D /* Pods_ios_dca_caculator.framework */; };
+		D60581AA2609C80300227F97 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60581A92609C80300227F97 /* SearchTableViewCell.swift */; };
+		D60581B02609CEF700227F97 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60581AF2609CEF700227F97 /* APIService.swift */; };
+		D60581B62609E0F400227F97 /* SearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60581B52609E0F400227F97 /* SearchResults.swift */; };
 		D671A6C02609A44E000D2CE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D671A6BF2609A44E000D2CE0 /* AppDelegate.swift */; };
 		D671A6C22609A44E000D2CE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D671A6C12609A44E000D2CE0 /* SceneDelegate.swift */; };
 		D671A6C42609A44E000D2CE0 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D671A6C32609A44E000D2CE0 /* SearchTableViewController.swift */; };
@@ -20,6 +23,9 @@
 		24BCD27CBB2F7BE60566908D /* Pods_ios_dca_caculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_dca_caculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45AE5BA945C4E42C2CC72E83 /* Pods-ios-dca-caculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-dca-caculator.debug.xcconfig"; path = "Target Support Files/Pods-ios-dca-caculator/Pods-ios-dca-caculator.debug.xcconfig"; sourceTree = "<group>"; };
 		682CEEAAC08BF20B395D2DF8 /* Pods-ios-dca-caculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-dca-caculator.release.xcconfig"; path = "Target Support Files/Pods-ios-dca-caculator/Pods-ios-dca-caculator.release.xcconfig"; sourceTree = "<group>"; };
+		D60581A92609C80300227F97 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		D60581AF2609CEF700227F97 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		D60581B52609E0F400227F97 /* SearchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResults.swift; sourceTree = "<group>"; };
 		D671A6BC2609A44E000D2CE0 /* ios-dca-caculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-dca-caculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D671A6BF2609A44E000D2CE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D671A6C12609A44E000D2CE0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +65,37 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D60581A72609C7AB00227F97 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D60581A92609C80300227F97 /* SearchTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D60581A82609C7AF00227F97 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D60581AE2609CEE500227F97 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D60581AF2609CEF700227F97 /* APIService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		D60581B42609E0DE00227F97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D60581B52609E0F400227F97 /* SearchResults.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		D671A6B32609A44E000D2CE0 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +117,10 @@
 		D671A6BE2609A44E000D2CE0 /* ios-dca-caculator */ = {
 			isa = PBXGroup;
 			children = (
+				D60581B42609E0DE00227F97 /* Model */,
+				D60581AE2609CEE500227F97 /* Service */,
+				D60581A82609C7AF00227F97 /* Controller */,
+				D60581A72609C7AB00227F97 /* View */,
 				D671A6BF2609A44E000D2CE0 /* AppDelegate.swift */,
 				D671A6C12609A44E000D2CE0 /* SceneDelegate.swift */,
 				D671A6C32609A44E000D2CE0 /* SearchTableViewController.swift */,
@@ -206,7 +247,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D671A6C42609A44E000D2CE0 /* SearchTableViewController.swift in Sources */,
+				D60581B02609CEF700227F97 /* APIService.swift in Sources */,
+				D60581AA2609C80300227F97 /* SearchTableViewCell.swift in Sources */,
 				D671A6C02609A44E000D2CE0 /* AppDelegate.swift in Sources */,
+				D60581B62609E0F400227F97 /* SearchResults.swift in Sources */,
 				D671A6C22609A44E000D2CE0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B773EA0A9EF2788FBEF6BAA /* Pods_ios_dca_caculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24BCD27CBB2F7BE60566908D /* Pods_ios_dca_caculator.framework */; };
+		D671A6C02609A44E000D2CE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D671A6BF2609A44E000D2CE0 /* AppDelegate.swift */; };
+		D671A6C22609A44E000D2CE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D671A6C12609A44E000D2CE0 /* SceneDelegate.swift */; };
+		D671A6C42609A44E000D2CE0 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D671A6C32609A44E000D2CE0 /* SearchTableViewController.swift */; };
+		D671A6C72609A44E000D2CE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D671A6C52609A44E000D2CE0 /* Main.storyboard */; };
+		D671A6C92609A450000D2CE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D671A6C82609A450000D2CE0 /* Assets.xcassets */; };
+		D671A6CC2609A450000D2CE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D671A6CA2609A450000D2CE0 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24BCD27CBB2F7BE60566908D /* Pods_ios_dca_caculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_dca_caculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45AE5BA945C4E42C2CC72E83 /* Pods-ios-dca-caculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-dca-caculator.debug.xcconfig"; path = "Target Support Files/Pods-ios-dca-caculator/Pods-ios-dca-caculator.debug.xcconfig"; sourceTree = "<group>"; };
+		682CEEAAC08BF20B395D2DF8 /* Pods-ios-dca-caculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-dca-caculator.release.xcconfig"; path = "Target Support Files/Pods-ios-dca-caculator/Pods-ios-dca-caculator.release.xcconfig"; sourceTree = "<group>"; };
+		D671A6BC2609A44E000D2CE0 /* ios-dca-caculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-dca-caculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D671A6BF2609A44E000D2CE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D671A6C12609A44E000D2CE0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D671A6C32609A44E000D2CE0 /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		D671A6C62609A44E000D2CE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D671A6C82609A450000D2CE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D671A6CB2609A450000D2CE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D671A6CD2609A450000D2CE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D671A6B92609A44E000D2CE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B773EA0A9EF2788FBEF6BAA /* Pods_ios_dca_caculator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62584B3340CFAFD68DF38240 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45AE5BA945C4E42C2CC72E83 /* Pods-ios-dca-caculator.debug.xcconfig */,
+				682CEEAAC08BF20B395D2DF8 /* Pods-ios-dca-caculator.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		79824F6FDBD7B86052ABCF90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24BCD27CBB2F7BE60566908D /* Pods_ios_dca_caculator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D671A6B32609A44E000D2CE0 = {
+			isa = PBXGroup;
+			children = (
+				D671A6BE2609A44E000D2CE0 /* ios-dca-caculator */,
+				D671A6BD2609A44E000D2CE0 /* Products */,
+				62584B3340CFAFD68DF38240 /* Pods */,
+				79824F6FDBD7B86052ABCF90 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D671A6BD2609A44E000D2CE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D671A6BC2609A44E000D2CE0 /* ios-dca-caculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D671A6BE2609A44E000D2CE0 /* ios-dca-caculator */ = {
+			isa = PBXGroup;
+			children = (
+				D671A6BF2609A44E000D2CE0 /* AppDelegate.swift */,
+				D671A6C12609A44E000D2CE0 /* SceneDelegate.swift */,
+				D671A6C32609A44E000D2CE0 /* SearchTableViewController.swift */,
+				D671A6C52609A44E000D2CE0 /* Main.storyboard */,
+				D671A6C82609A450000D2CE0 /* Assets.xcassets */,
+				D671A6CA2609A450000D2CE0 /* LaunchScreen.storyboard */,
+				D671A6CD2609A450000D2CE0 /* Info.plist */,
+			);
+			path = "ios-dca-caculator";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D671A6BB2609A44E000D2CE0 /* ios-dca-caculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D671A6D02609A450000D2CE0 /* Build configuration list for PBXNativeTarget "ios-dca-caculator" */;
+			buildPhases = (
+				483F357D031409244F54E5EC /* [CP] Check Pods Manifest.lock */,
+				D671A6B82609A44E000D2CE0 /* Sources */,
+				D671A6B92609A44E000D2CE0 /* Frameworks */,
+				D671A6BA2609A44E000D2CE0 /* Resources */,
+				4A3534DBCFE306ACADFE5414 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-dca-caculator";
+			productName = "ios-dca-caculator";
+			productReference = D671A6BC2609A44E000D2CE0 /* ios-dca-caculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D671A6B42609A44E000D2CE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D671A6BB2609A44E000D2CE0 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = D671A6B72609A44E000D2CE0 /* Build configuration list for PBXProject "ios-dca-caculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D671A6B32609A44E000D2CE0;
+			productRefGroup = D671A6BD2609A44E000D2CE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D671A6BB2609A44E000D2CE0 /* ios-dca-caculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D671A6BA2609A44E000D2CE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D671A6CC2609A450000D2CE0 /* LaunchScreen.storyboard in Resources */,
+				D671A6C92609A450000D2CE0 /* Assets.xcassets in Resources */,
+				D671A6C72609A44E000D2CE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		483F357D031409244F54E5EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios-dca-caculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A3534DBCFE306ACADFE5414 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios-dca-caculator/Pods-ios-dca-caculator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios-dca-caculator/Pods-ios-dca-caculator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ios-dca-caculator/Pods-ios-dca-caculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D671A6B82609A44E000D2CE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D671A6C42609A44E000D2CE0 /* SearchTableViewController.swift in Sources */,
+				D671A6C02609A44E000D2CE0 /* AppDelegate.swift in Sources */,
+				D671A6C22609A44E000D2CE0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D671A6C52609A44E000D2CE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D671A6C62609A44E000D2CE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D671A6CA2609A450000D2CE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D671A6CB2609A450000D2CE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D671A6CE2609A450000D2CE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D671A6CF2609A450000D2CE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D671A6D12609A450000D2CE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45AE5BA945C4E42C2CC72E83 /* Pods-ios-dca-caculator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ND38VD9UA2;
+				INFOPLIST_FILE = "ios-dca-caculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ngodangtan.ios-dca-caculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D671A6D22609A450000D2CE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 682CEEAAC08BF20B395D2DF8 /* Pods-ios-dca-caculator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ND38VD9UA2;
+				INFOPLIST_FILE = "ios-dca-caculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ngodangtan.ios-dca-caculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D671A6B72609A44E000D2CE0 /* Build configuration list for PBXProject "ios-dca-caculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D671A6CE2609A450000D2CE0 /* Debug */,
+				D671A6CF2609A450000D2CE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D671A6D02609A450000D2CE0 /* Build configuration list for PBXNativeTarget "ios-dca-caculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D671A6D12609A450000D2CE0 /* Debug */,
+				D671A6D22609A450000D2CE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D671A6B42609A44E000D2CE0 /* Project object */;
+}

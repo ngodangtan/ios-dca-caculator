@@ -17,6 +17,8 @@
 		D671A6C72609A44E000D2CE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D671A6C52609A44E000D2CE0 /* Main.storyboard */; };
 		D671A6C92609A450000D2CE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D671A6C82609A450000D2CE0 /* Assets.xcassets */; };
 		D671A6CC2609A450000D2CE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D671A6CA2609A450000D2CE0 /* LaunchScreen.storyboard */; };
+		D672AE33260B2290009FA792 /* UIAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D672AE32260B2290009FA792 /* UIAnimatable.swift */; };
+		D6918FFF260B1BA50046DAD3 /* SearchPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6918FFE260B1BA50046DAD3 /* SearchPlaceholderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		D671A6C82609A450000D2CE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D671A6CB2609A450000D2CE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D671A6CD2609A450000D2CE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D672AE32260B2290009FA792 /* UIAnimatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAnimatable.swift; sourceTree = "<group>"; };
+		D6918FFE260B1BA50046DAD3 /* SearchPlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPlaceholderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				D60581A92609C80300227F97 /* SearchTableViewCell.swift */,
+				D6918FFE260B1BA50046DAD3 /* SearchPlaceholderView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -76,6 +81,7 @@
 		D60581A82609C7AF00227F97 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				D671A6C32609A44E000D2CE0 /* SearchTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -117,19 +123,27 @@
 		D671A6BE2609A44E000D2CE0 /* ios-dca-caculator */ = {
 			isa = PBXGroup;
 			children = (
+				D672AE31260B2266009FA792 /* Protocol */,
 				D60581B42609E0DE00227F97 /* Model */,
 				D60581AE2609CEE500227F97 /* Service */,
 				D60581A82609C7AF00227F97 /* Controller */,
 				D60581A72609C7AB00227F97 /* View */,
 				D671A6BF2609A44E000D2CE0 /* AppDelegate.swift */,
 				D671A6C12609A44E000D2CE0 /* SceneDelegate.swift */,
-				D671A6C32609A44E000D2CE0 /* SearchTableViewController.swift */,
 				D671A6C52609A44E000D2CE0 /* Main.storyboard */,
 				D671A6C82609A450000D2CE0 /* Assets.xcassets */,
 				D671A6CA2609A450000D2CE0 /* LaunchScreen.storyboard */,
 				D671A6CD2609A450000D2CE0 /* Info.plist */,
 			);
 			path = "ios-dca-caculator";
+			sourceTree = "<group>";
+		};
+		D672AE31260B2266009FA792 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				D672AE32260B2290009FA792 /* UIAnimatable.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,11 +261,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D671A6C42609A44E000D2CE0 /* SearchTableViewController.swift in Sources */,
+				D672AE33260B2290009FA792 /* UIAnimatable.swift in Sources */,
 				D60581B02609CEF700227F97 /* APIService.swift in Sources */,
 				D60581AA2609C80300227F97 /* SearchTableViewCell.swift in Sources */,
 				D671A6C02609A44E000D2CE0 /* AppDelegate.swift in Sources */,
 				D60581B62609E0F400227F97 /* SearchResults.swift in Sources */,
 				D671A6C22609A44E000D2CE0 /* SceneDelegate.swift in Sources */,
+				D6918FFF260B1BA50046DAD3 /* SearchPlaceholderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
